@@ -1,4 +1,7 @@
 # my-play
+```
+## vue-video-play是vue视频播放插件这是一个demo演示文件
+```
 
 ## Project setup
 ```
