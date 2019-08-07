@@ -1,4 +1,4 @@
-# vue-video-play
+# vue-video-player
 ```
 是vue视频播放插件这是一个demo演示文件
 ```
