@@ -38,7 +38,7 @@
                     sources: [
                       {
                         type: 'rtmp/flv',
-                        src: "rtmp://58.200.131.2:1935/livetv/hunantv"
+                        src: "rtmp://live.chosun.gscdn.com/live/tvchosun1.stream"
                       },
                       {
                         type: "video/mp4",
@@ -62,23 +62,17 @@
     }
 </script>
 <style scoped>
-  .demo{
-    display: inline-block;
-    width: 600px;
-    height: 338px;
-    text-align: center;
-    line-height: 100px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    overflow: hidden;
-    background: #fff;
-    position: relative;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
-    margin-right: 4px;
+  .container{
+    /* display: flex; */
+    
   }
- 
-  .demo:hover{
-    display: block;
+  .demo{
+   
+   width: 100%;
+    text-align: center;
+    border: 1px solid transparent; 
+    background: black; 
+     
   }
 </style>
 
