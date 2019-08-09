@@ -88,7 +88,7 @@ module.exports = {
     // All options for webpack-dev-server are supported
     // https://webpack.js.org/configuration/dev-server/
     devServer: {
-        open: true,
+        open: false,
         hot:true,
         host: '0.0.0.0',
 
