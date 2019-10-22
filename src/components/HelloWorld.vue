@@ -18,12 +18,12 @@
                 playerOptions: {
                     //播放速度
                     playbackRates: [0.5, 1.0, 1.5, 2.0], 
-                    //如果true,浏览器准备好时开始回放。
-                    autoplay: false, 
+                    //如果true,浏览器准备好时开始播放。
+                    autoplay: true, 
                     // 默认情况下将会消除任何音频。
                     muted: false, 
                     // 导致视频一结束就重新开始。
-                    loop: false, 
+                    loop: true, 
                     // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
                     preload: 'auto', 
                     language: 'zh-CN',
@@ -38,7 +38,7 @@
                     sources: [
                       {
                         type: 'rtmp/flv',
-                        src: "rtmp://live.chosun.gscdn.com/live/tvchosun1.stream"
+                        src: "rtmp://58.200.131.2:1935/livetv/hunantv"
                       },
                       {
                         type: "video/mp4",
